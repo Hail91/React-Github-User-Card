@@ -3,6 +3,7 @@ import './App.css';
 import axios from 'axios';
 import UserCard from './Components/UserCard';
 import FollowersCard from './Components/FollowersCard';
+import NavBar from './Components/NavBar';
 
 class App extends React.Component {
   state = {
@@ -37,6 +38,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <NavBar />
         <UserCard user={this.state.user} />
         <FollowersCard followers={this.state.followers} />
       </div>
