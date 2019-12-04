@@ -19,6 +19,7 @@
   border-radius: 5px;
   background-color: white;
   filter: drop-shadow(10px 10px 10px darkgrey);
+  width: 500px;
 }
 
 .user-card img {
@@ -54,6 +55,10 @@ i:hover {
 
 .card-text {
   cursor: default;
+}
+
+.calendar {
+  width: 75%;
 }
 
 

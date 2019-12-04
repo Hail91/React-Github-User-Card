@@ -1,6 +1,7 @@
 import React from 'react';
 
 const FollowersCard = (props) => {
+
     return (
         <div className='follower-container'>
             {props.followers.map(data => {
